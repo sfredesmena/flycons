@@ -1,6 +1,12 @@
+:root {
+  --base-url: 'https://cdn.jsdelivr.net/gh/sfredesmena/flycons/svg/';
+}
 i.flycon {
-
+	background-repeat: no-repeat;
+    display: inline-block;
+    width: XXpx;  /* Define el ancho del icono */
+    height: XXpx; /* Define la altura del icono */
 }
 i.flycon-basketball {
-	background-image: ./svg/basketball.svg;
+	background-image: url(var(--base-url) + 'basketball.png');;
 }
