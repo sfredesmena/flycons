@@ -4,8 +4,6 @@
 i.flycon {
 	background-repeat: no-repeat;
     display: inline-block;
-    width: XXpx;  /* Define el ancho del icono */
-    height: XXpx; /* Define la altura del icono */
 }
 i.flycon-basketball {
 	background-image: url(var(--base-url) + 'basketball.png');;
